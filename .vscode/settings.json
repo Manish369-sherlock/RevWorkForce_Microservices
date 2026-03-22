@@ -1,0 +1,4 @@
+{
+  "java.debug.settings.enableRunDebugCodeLens": true,
+  "java.debug.settings.enableTestCodeLens": true
+}

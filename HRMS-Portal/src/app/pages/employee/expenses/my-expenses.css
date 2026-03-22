@@ -1,0 +1,33 @@
+:host { display: block; }
+
+:host { background-color: #f8fafc; }
+:host .bg-\[\#0a0a0a\] { background-color: #f8fafc !important; }
+:host .bg-\[\#141414\] { background-color: #ffffff !important; }
+
+:host .text-white\/80 { color: #1e293b !important; }
+:host .text-white\/70 { color: #334155 !important; }
+:host .text-white\/60 { color: #475569 !important; }
+:host .text-white\/50 { color: #475569 !important; }
+:host .text-white\/40 { color: #64748b !important; }
+:host .text-white\/30 { color: #94a3b8 !important; }
+:host .text-white\/20 { color: #cbd5e1 !important; }
+
+:host .border-white\/10,
+:host .border-white\/\[0\.1\] { border-color: #e2e8f0 !important; }
+
+:host .placeholder-white\/30::placeholder { color: #94a3b8 !important; opacity: 1; }
+:host .focus\:border-white\/20:focus { border-color: #818cf8 !important; }
+
+:host .hover\:text-white\/70:hover { color: #334155 !important; }
+:host .hover\:text-white\/80:hover { color: #1e293b !important; }
+:host .hover\:bg-white\/\[0\.1\]:hover,
+:host .hover\:bg-white\/5:hover { background-color: #f1f5f9 !important; }
+
+:host [class*="text-white/"] { color: #475569 !important; }
+:host [class*="text-white/70"] { color: #334155 !important; }
+:host [class*="text-white/60"],
+:host [class*="text-white/50"] { color: #475569 !important; }
+:host [class*="text-white/40"] { color: #64748b !important; }
+:host [class*="text-white/30"] { color: #94a3b8 !important; }
+:host [class*="text-white/20"] { color: #cbd5e1 !important; }
+

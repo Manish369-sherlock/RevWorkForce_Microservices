@@ -1,0 +1,60 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "User Service",
+      "request": "launch",
+      "mainClass": "com.revworkforce.userservice.UserServiceApplication",
+      "projectName": "user-service"
+    },
+    {
+      "type": "java",
+      "name": "Leave Service",
+      "request": "launch",
+      "mainClass": "com.revworkforce.leaveservice.LeaveServiceApplication",
+      "projectName": "leave-service"
+    },
+    {
+      "type": "java",
+      "name": "Performance Service",
+      "request": "launch",
+      "mainClass": "com.revworkforce.performanceservice.PerformanceServiceApplication",
+      "projectName": "performance-service"
+    },
+    {
+      "type": "java",
+      "name": "Employee Management Service",
+      "request": "launch",
+      "mainClass": "com.revworkforce.employeemanagementservice.EmployeeManagementServiceApplication",
+      "projectName": "employee-management-service"
+    },
+    {
+      "type": "java",
+      "name": "Reporting Service",
+      "request": "launch",
+      "mainClass": "com.revworkforce.reportingservice.ReportingServiceApplication",
+      "projectName": "reporting-service"
+    },
+    {
+      "type": "java",
+      "name": "Notification Service",
+      "request": "launch",
+      "mainClass": "com.revworkforce.notificationservice.NotificationServiceApplication",
+      "projectName": "notification-service"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run All Business Services",
+      "configurations": [
+        "User Service",
+        "Leave Service",
+        "Performance Service",
+        "Employee Management Service",
+        "Reporting Service",
+        "Notification Service"
+      ]
+    }
+  ]
+}
